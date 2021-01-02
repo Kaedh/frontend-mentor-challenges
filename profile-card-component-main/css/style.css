@@ -1,8 +1,8 @@
 .container {
     height: 100%;
     width: 100%;
-    background: url("../images/bg-pattern-top.svg") -155% 145%  no-repeat,
-                url("../images/bg-pattern-bottom.svg") 200% -75% no-repeat;
+    background: url("../images/bg-pattern-top.svg") -120% 160%  no-repeat,
+                url("../images/bg-pattern-bottom.svg") 180% -100% no-repeat;
 
     background-size: 1500px 1500px, 1500px 1500px;
 
@@ -14,8 +14,8 @@
 
 .card {
     position: relative;
-    width: 450px;
-    height: 500px;
+    width: 375px;
+    height: 400px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -32,9 +32,10 @@
 .profile-img {
     position: absolute;
     z-index: 2;
-    left: 175px;
-    top: 145px;
-
+    left: 125px;
+    top: 75px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -44,7 +45,7 @@
     height: 35%;
     text-align: center;
     font-size: 18px;
-    margin-top: 50px;
+    margin-top: 85px;
     display: flex;
     flex-direction: column;
     align-items: center;
