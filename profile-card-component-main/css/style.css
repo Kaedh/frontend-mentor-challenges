@@ -1,10 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(229, 23%, 23%);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
 .container {
     height: 100%;
     width: 100%;
-    background: url("../images/bg-pattern-top.svg") -120% 160%  no-repeat,
-                url("../images/bg-pattern-bottom.svg") 180% -100% no-repeat;
-
-    background-size: 1500px 1500px, 1500px 1500px;
+    background: url("../assets/bg-pattern-top.svg") 0 calc(100% - 450px)  no-repeat,
+                url("../assets/bg-pattern-bottom.svg") 100% calc(100% + 450px) no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -14,7 +25,7 @@
 
 .card {
     position: relative;
-    width: 375px;
+    width: 350px;
     height: 400px;
     background-color: white;
     display: flex;
@@ -25,19 +36,19 @@
 
 .card-header {
     height: 35%;
-    background: url("../images/bg-pattern-card.svg");
+    background: url("../assets/bg-pattern-card.svg");
     border-radius: 25px 25px 0 0;
 }
 
 .profile-img {
     position: absolute;
     z-index: 2;
-    left: 125px;
-    top: 75px;
+    left: calc(50% - 60px);
+    top: 15%;
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 7px solid white;
 }
 
 .top-info {
@@ -74,13 +85,12 @@
     text-align: center;
 }
 
-@media ( max-width: 375px) {
+@media ( max-width: 475px) {
     .container {
         height: 100%;
         width: 100%;
-        background: url("../images/bg-pattern-top.svg") 120% 135%  no-repeat,
-                    url("../images/bg-pattern-bottom.svg") -15% -55%  no-repeat;
-
+        background: url("../assets/bg-pattern-top.svg") -700px -450px  no-repeat,
+                    url("../assets/bg-pattern-bottom.svg") 0 calc(100% + 550px)  no-repeat;
         display: flex;
         flex-direction: column;
         align-items: center;
