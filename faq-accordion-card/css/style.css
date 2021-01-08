@@ -1,0 +1,11 @@
+.accordion li ul {
+    display: none;
+}
+
+.accordion li {
+    cursor: pointer;
+}
+
+.accordion li:focus ul {
+    display: block;
+}

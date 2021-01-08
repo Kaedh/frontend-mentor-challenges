@@ -3,38 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <div class="card">
+    <div class="img-wrapper">
+      <img src="images/bg-pattern-desktop.svg" alt="">
+      <img src="images/illustration-woman-online-desktop.svg" alt="">
+    </div>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+    <ul class="accordion">
+      <li tabindex="0">How many team members can I invite?
+         <ul>
+            <li>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</li>
+         </ul>
+      </li>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+      <li tabindex="1">What is the maximum file upload size?
+        <ul>
+           <li>No more than 2GB. All files in your account must fit your allotted storage space.</li>
+        </ul>
+     </li>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+     <li tabindex="2">How do I reset my password?
+      <ul>
+         <li>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</li>
+      </ul>
+     </li>
+    
+    <li tabindex="3">Can I cancel my subscription?
+      <ul>
+         <li>Yes! Send us a message and we’ll process your request no questions asked.</li>
+      </ul>
+    </li>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <li tabindex="4">Do you provide additional support?
+      <ul>
+         <li>Chat and email support is available 24/7. Phone lines are open during normal business hours.</li>
+      </ul>
+    </li>
+    </ul>
   </div>
 </body>
 </html>
