@@ -154,7 +154,7 @@ li {
 }
 
 .accordion li:hover {
-    color: var(--soft-red);
+    color: var(--soft-red   );
 }
 
 .accordion li:focus ul {
