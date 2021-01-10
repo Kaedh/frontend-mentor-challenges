@@ -3,5 +3,10 @@ O objetivo deste repositório é registrar todos os desafios do [frontend mentor
 Clique na imagem para acessar a demonstração.
 <br/>
 <hr/>
-<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="400" height="200" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/profile-card-preview.png" /></a>
+<p float=left">
+<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="450" height="250" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/profile-card-preview.png" /></a>
+<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="450" height="250" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/accordion-menu-preview.png" /></a>
+</p>
+
+
 
