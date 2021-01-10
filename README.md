@@ -4,8 +4,8 @@ Clique na imagem para acessar a demonstração.
 <br/>
 <hr/>
 <p float=left">
-<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="450" height="250" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/profile-card-preview.png" /></a>
-<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="450" height="250" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/accordion-menu-preview.png" /></a>
+<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="420" height="235" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/profile-card-preview.png" /></a>
+<a href="https://friendly-blackwell-3ac86f.netlify.app"><img width="420" height="235" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/accordion-menu-preview.png" /></a>
 </p>
 
 
