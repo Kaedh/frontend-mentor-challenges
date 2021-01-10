@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -10,45 +12,76 @@
 
 </head>
 <body>
-  <div class="card">
-    <div class="img-wrapper">
-      <img src="images/bg-pattern-desktop.svg" alt="">
-      <img src="images/illustration-woman-online-desktop.svg" alt="">
-    </div>
+  <div class="container">
+    <img class="box" src="images/illustration-box-desktop.svg" alt="">
+    <div class="card">
+      <div class="img-wrapper">
+        <img class="woman" src="images/illustration-woman-online-desktop.svg" alt="">
+        <img class="background-woman" src="images/bg-pattern-desktop.svg" alt="">
+      </div>
 
-    <ul class="accordion">
-      <li tabindex="0">How many team members can I invite?
-         <ul>
-            <li>You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</li>
-         </ul>
-      </li>
+      <div class="accordion-container">
+        <h1>FAQ</h1>
+        <ul class="accordion">
+          <li tabindex="0">
+            <div class="list-header">
+              <h2>How many team members can I invite?</h2>
+              <img class="expand-btn" src="images/icon-arrow-down.svg" />
+            </div>
+            <hr />
+            <ul>
+                <li>You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.</li>
+            </ul>
+          </li>
 
-      <li tabindex="1">What is the maximum file upload size?
-        <ul>
-           <li>No more than 2GB. All files in your account must fit your allotted storage space.</li>
+          <li tabindex="1">
+            <div class="list-header">
+              <h2>What is the maximum file upload size?</h2>
+              <img class="expand-btn" src="images/icon-arrow-down.svg" />
+            </div>
+            <hr />
+            <ul>
+              <li>No more than 2GB. All files in your account must fit your allotted storage space.</li>
+            </ul>
+        </li>
+
+        <li tabindex="2">
+          <div class="list-header">
+            <h2>How do I reset my password?</h2>
+            <img class="expand-btn" src="images/icon-arrow-down.svg" />
+          </div>
+          <hr />
+          <ul>
+            <li>Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</li>
+          </ul>
+        </li>
+        
+        <li tabindex="3">
+          <div class="list-header">
+            <h2>Can I cancel my subscription?</h2>
+            <img class="expand-btn" src="images/icon-arrow-down.svg" />
+          </div>
+          <hr />
+          <ul>
+            <li>Yes! Send us a message and we’ll process your request no questions asked.</li>
+          </ul>
+        </li>
+
+        <li tabindex="4">
+          <div class="list-header">
+            <h2>Do you provide additional support?</h2>
+            <img class="expand-btn" src="images/icon-arrow-down.svg" />
+          </div>
+          <hr />
+          <ul>
+            <li>Chat and email support is available 24/7. Phone lines are open during normal business hours.</li>
+          </ul>
+        </li>
         </ul>
-     </li>
-
-     <li tabindex="2">How do I reset my password?
-      <ul>
-         <li>Click “Forgot password” from the login page or “Change password” from your profile page.
-          A reset link will be emailed to you.</li>
-      </ul>
-     </li>
-    
-    <li tabindex="3">Can I cancel my subscription?
-      <ul>
-         <li>Yes! Send us a message and we’ll process your request no questions asked.</li>
-      </ul>
-    </li>
-
-    <li tabindex="4">Do you provide additional support?
-      <ul>
-         <li>Chat and email support is available 24/7. Phone lines are open during normal business hours.</li>
-      </ul>
-    </li>
-    </ul>
+      </div>
+    </div>
   </div>
 </body>
 </html>
