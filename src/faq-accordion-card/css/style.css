@@ -137,8 +137,12 @@ li {
     font-weight: 400;
 }
 
+.accordion li:focus {
+    outline: none;
+}
+
 .accordion li:focus h2 {
-    outline: 0;
+    outline: none;
     font-weight: 700;
     color: var(--very-dark-desatured-blue);
 }
@@ -153,7 +157,7 @@ li {
     visibility: hidden;
 }
 
-.accordion li:hover {
+.accordion li .list-header h2:hover {
     color: var(--soft-red   );
 }
 
