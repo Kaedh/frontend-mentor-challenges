@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
 </head>
+
 <body>
-  <div class="container">
+  <div class="card">
+
     <img class="box" src="images/illustration-box-desktop.svg" alt="">
-    <div class="card">
-      <div class="img-wrapper">
-        <img class="woman" src="images/illustration-woman-online-desktop.svg" alt="">
-        <img class="background-woman" src="images/bg-pattern-desktop.svg" alt="">
-      </div>
 
-      <div class="accordion-container">
-        <h1>FAQ</h1>
-        <ul class="accordion">
-          <li tabindex="0">
-            <div class="list-header">
-              <h2>How many team members can I invite?</h2>
-              <img class="expand-btn" src="images/icon-arrow-down.svg" />
-            </div>
-            <hr />
-            <ul>
-                <li>You can invite up to 2 additional users on the Free plan. There is no limit on 
-                team members for the Premium plan.</li>
-            </ul>
-          </li>
+    <div class="img-wrapper">
+      <img class="woman" src="images/illustration-woman-online-desktop.svg" alt="">
+      <img class="background" src="images/bg-pattern-desktop.svg" alt="">
+    </div>
 
-          <li tabindex="1">
-            <div class="list-header">
-              <h2>What is the maximum file upload size?</h2>
-              <img class="expand-btn" src="images/icon-arrow-down.svg" />
-            </div>
-            <hr />
-            <ul>
-              <li>No more than 2GB. All files in your account must fit your allotted storage space.</li>
-            </ul>
+    <div class="accordion-container">
+      <h1>FAQ</h1>
+      <ul class="accordion">
+        <li tabindex="0">
+          <div class="list-header">
+            <h2>How many team members can I invite?</h2>
+            <img class="expand-btn" src="images/icon-arrow-down.svg" />
+          </div>
+          <hr />
+          <ul>
+            <li>You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.</li>
+          </ul>
+        </li>
+
+        <li tabindex="1">
+          <div class="list-header">
+            <h2>What is the maximum file upload size?</h2>
+            <img class="expand-btn" src="images/icon-arrow-down.svg" />
+          </div>
+          <hr />
+          <ul>
+            <li>No more than 2GB. All files in your account must fit your allotted storage space.</li>
+          </ul>
         </li>
 
         <li tabindex="2">
@@ -57,7 +60,7 @@
               A reset link will be emailed to you.</li>
           </ul>
         </li>
-        
+
         <li tabindex="3">
           <div class="list-header">
             <h2>Can I cancel my subscription?</h2>
@@ -79,9 +82,10 @@
             <li>Chat and email support is available 24/7. Phone lines are open during normal business hours.</li>
           </ul>
         </li>
-        </ul>
-      </div>
+      </ul>
     </div>
   </div>
+  </div>
 </body>
+
 </html>
