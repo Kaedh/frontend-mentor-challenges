@@ -31,3 +31,45 @@ body {
     
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 1080px;
+    min-width: 1080;
+
+    height: 570px;
+    min-height: 570px;
+    
+}
+
+.card-top {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    
+}
+
+.card-top .text-wrapper {
+    width: 50%;
+}
+
+.card-top .text-wrapper h1 {
+    width: 80%;
+    color: var(--very-dark-magenta);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-top .text-wrapper span {
+    display: block;
+    width: 95%;
+    color: var(--dark-grayish-magenta);
+    font-weight: 500;
+}
+
+.card-bottom {
+    height: 50%;
+    width: 100%;
+}
