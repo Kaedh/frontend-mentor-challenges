@@ -69,6 +69,46 @@ body {
     font-weight: 500;
 }
 
+.card .rating-container {
+    display: flex;
+    flex-direction: column;
+    width: 535px;
+
+}
+
+.card .rating-container div:nth-child(1) {
+    align-self: start;
+}
+
+.card .rating-container div:nth-child(2) {
+    align-self: center;
+}
+
+.card .rating-container div:nth-child(3) {
+    align-self: flex-end;
+}
+
+.card .rating-container .rating {
+    display: flex;
+    width: 435px;
+    height: 60px;
+    background-color: var(--light-graysh-magenta);
+    border-radius: 10px;
+    margin: 10px 0;
+    
+}
+
+.card .rating-container .rating .stars{
+    margin: auto 25px;
+
+}
+
+.card .rating-container .rating h2{
+    font-size: 15px;
+    margin: auto 0;
+    color: var(--very-dark-magenta);
+    
+}
 .card-bottom {
     height: 50%;
     width: 100%;
