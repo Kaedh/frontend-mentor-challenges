@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/css/style.css">
 
   <title>Frontend Mentor | Article preview component</title>
 </head>
+
 <body>
   <article class="card">
-    <img src="/images/drawers.jpg" alt="pictures of a drawer">
+    <header>
+      <img src="/images/drawers.jpg" alt="pictures of a drawer">
+    </header>
+
+    <main>
+
+      <h1>Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home</h1>
+
+      <span>Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.</span>
+
+
+
+        <footer>
+          <img src="/images/avatar-michelle.jpg" alt="">
     
-    <h1>Shift the overall look and feel by adding these wonderful 
-    touches to furniture in your home</h1>
+          <div class="personal-info">
+            <h2>Michelle Appleton</h2>
+            <span>28 Jun 2020</span>
+          </div>
+    
+          <a href="#" id="share-btn"><img src="/images/icon-share.svg" alt=""></a>
+    
+        </footer>
 
-    <span>Ever been in a room and felt like something was missing? Perhaps 
-    it felt slightly bare and uninviting. I’ve got some simple tips 
-    to help you make any room feel complete.</span>
+    </main>
 
 
-    <div class="card-footer">
-      <img src="/images/avatar-michelle.jpg" alt="">
-      <div class="text">
-        <h2>Michelle Appleton</h2>
-        <span>28 Jun 2020</span>
-      </div>
-      <a href="#" id="share-btn" ><img src="/images/icon-share.svg" alt=""></a>
-    </div>
-
-    <div id="hidden-menu">
-      <div class="icon-container">
+    <div id="hidden-menu" class="hidden">
+      <div class="wrapper">
         <span>SHARE</span>
-        <img class="icon" src="/images/icon-facebook.svg" alt="">
-        <img class="icon" src="/images/icon-twitter.svg" alt="">
-        <img class="icon" src="/images/icon-pinterest.svg" alt="">
+        <div class="icon-container">
+          <img class="icon" src="/images/icon-facebook.svg" alt="">
+          <img class="icon" src="/images/icon-twitter.svg" alt="">
+          <img class="icon" src="/images/icon-pinterest.svg" alt="">
+        </div>
       </div>
+
     </div>
+
   </article>
 
   <script src="/js/main.js"></script>
 </body>
+
 </html>
