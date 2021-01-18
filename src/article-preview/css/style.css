@@ -15,18 +15,100 @@
 
 body {
     height: 100vh;
+    min-height: 525px;
     width: 100vw;
+    min-width: 375px;
     font-size: 62.5%;
-    margin: auto;
     font-family: 'Manrope', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--light-grayish-blue);
 }
 
 .card {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    min-width: 325px;
-    min-height: 525px;
+    width: 85%;
+    height: 65%;
+    border-radius: 10px;
+    background-color: white;
 }
 
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h1 {
+    margin: 15px auto;
+    width: 80%;
+    font-weight: 700;
+    text-align: justify;
+    color: var(--very-dark-grayish-blue);
+}
+
+.card span {
+    margin: 0 auto;
+    width: 80%;
+    font-weight: 500;
+    text-align: justify; 
+    font-size: 1.3em;
+    color: var(--desaturated-dark-blue);
+}
+
+.card .article-footer {
+    margin-bottom: 30px;
+    margin-top: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .article-footer .left-panel {
+    margin-left: 10%;
+    display: flex;
+
+}
+
+.card .article-footer .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card .article-footer .writer-info {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+ 
+ }
+
+ .card .article-footer .writer-info .name {
+    color: var(--very-dark-grayish-blue);
+    font-weight: 700;
+  }
+
+  .card .article-footer .writer-info .date {
+    font-weight: 500;
+  }
+
+ .card .article-footer .share-btn {
+     margin-right: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     background-color: var(--light-grayish-blue);
+ }
+
+ .card .article-footer .share-btn a img { 
+    width: 15px;
+    height: 15px;
+ }
