@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     height: 100vh;
     min-height: 525px;
@@ -29,9 +30,11 @@ body {
 }
 
 .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 85%;
+    max-width: 480px;
     height: 65%;
     border-radius: 10px;
     background-color: white;
@@ -40,6 +43,7 @@ body {
 .card img {
     width: 100%;
     height: auto;
+    max-height: 380px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -60,55 +64,124 @@ body {
     color: var(--desaturated-dark-blue);
 }
 
-.card .article-footer {
-    margin-bottom: 30px;
-    margin-top: auto;
+.card .card-footer {
+    position: absolute;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 15%;
+    min-height: 15%;
     align-items: center;
-}
-
-.card .article-footer .left-panel {
     margin-left: 10%;
-    display: flex;
-
+    
 }
 
-.card .article-footer .avatar {
-    width: 40px;
-    height: 40px;
+.card .card-footer img{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    margin-right: 5%;
 }
 
-.card .article-footer .writer-info {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
- 
- }
+.card .card-footer .text{
+    display: block;
+    max-width: 135px;
+}
 
- .card .article-footer .writer-info .name {
-    color: var(--very-dark-grayish-blue);
+.card .card-footer .text h2{
     font-weight: 700;
-  }
+    color: var(--very-dark-grayish-blue);
+}
 
-  .card .article-footer .writer-info .date {
-    font-weight: 500;
-  }
 
- .card .article-footer .share-btn {
-     margin-right: 10%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 35px;
-     height: 35px;
-     border-radius: 50%;
-     background-color: var(--light-grayish-blue);
- }
+.card .card-footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: auto;
+    background-color: var(--light-grayish-blue);
+    z-index: 2;
+    
+}
 
- .card .article-footer .share-btn a img { 
+.card .card-footer a img{ 
     width: 15px;
     height: 15px;
- }
+}
+
+.visible {
+    position: absolute;
+    display: block !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: var(--very-dark-grayish-blue);
+}
+
+
+#hidden-menu {
+    position: absolute; 
+    display: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+
+    border-radius: 0 0 10px 10px;
+    
+}
+
+#hidden-menu .icon-container {
+    height: 100%;
+    display: block;
+    margin: 3% auto;
+}
+
+#hidden-menu .icon-container span {
+    position: relative;
+    margin: 0 2% 0 10%;
+    font-size: 1.8em;
+    bottom: 8%;
+}
+
+#hidden-menu .icon {
+    margin: 0 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
