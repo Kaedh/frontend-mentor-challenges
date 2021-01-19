@@ -221,9 +221,40 @@ body {
 
 
 
+@media (min-width: 1024px) {
+    .card {
+        flex-direction: row;
+        max-width: 850px;
+        max-height: 275px;
+    }
 
+    .card header {
+        max-width: 350px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .card header img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+    }
 
-
+    .card main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .card main footer {
+        bottom: 10%;
+        left: 8%;
+        width: 85%;
+    }
 
 
 
