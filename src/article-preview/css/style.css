@@ -141,6 +141,11 @@ body {
     border-radius: 50%;
 }
 
+.arrow {
+    display: none;
+}
+
+
 /****************************************************************************************************/
 
 .hidden {
@@ -199,7 +204,7 @@ body {
 
 .visible .wrapper span{
     display: block;
-    animation: fade 1.5s;
+    animation: fade 1.0s;
     font-weight: bold;
     font-size: 1.8em;
     margin: auto 10px;  
@@ -208,7 +213,7 @@ body {
 
 .visible .wrapper .icon-container{
     margin: auto 0;
-    animation: fade 1.5s;
+    animation: fade 1.0s;
     display: inline-block;
 }
 
@@ -256,5 +261,73 @@ body {
         width: 85%;
     }
 
+    .card .share-box {
+        position: absolute;
+        color: white;
+        min-height: 4.3rem;
+        min-width: 14.3rem;
+        top: 35%;
+        left: 80%;
+    }
+
+    .card .share-box .visible {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: #48556a;
+        padding: 1rem 1.5rem;
+        font-size: 1.2em;
+        width: 230px;
+        z-index: 2;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+
+    .hidden {
+        transition:unset;
+    }
+
+    .show-arrow .arrow {
+        background: #48556a;
+        height: 1.5rem;
+        width: 1.5rem;
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        left: 50%;
+        top: 100%;
+        display: block;
+        -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        animation: fade 1.0s;
+    }
+
+    .visible .wrapper {
+        width: 125%;
+        
+     }
+
+    .visible .wrapper span {
+        font-weight: 500;
+        font-size: 1.3em;
+        margin-right: 25px;
+     }
+    
+    .visible .wrapper .icon-container .icon {
+        width: 15px;
+        height: 15px;
+    }
+
+}
 
 
