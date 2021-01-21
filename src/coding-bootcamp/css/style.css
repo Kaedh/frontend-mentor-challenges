@@ -18,4 +18,7 @@ body {
 
     font-family: 'Inter', sans-serif;
     font-size: 62.5%;
+
+    background: url(/images/pattern-bg.svg), url(/images/pattern-quotes.svg), url(/images/pattern-curve.svg);
+    background-repeat: no-repeat;
 }
