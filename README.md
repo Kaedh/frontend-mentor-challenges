@@ -10,9 +10,9 @@ Clique na imagem para acessar a demonstração.
 <a target="_blank" href="https://eloquent-swirles-e0037a.netlify.app/"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/socia-proof-preview.png" /></a>
 <a target="_blank" href="https://determined-euler-c97117.netlify.app"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/article-preview.png" /></a>
 <br>
-<a target="_blank" href="https://github.com/Kaedh/bootcamp-testimonial"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/bootcamp-testimonial-preview.PNG" /></a>
-<a target="_blank" href="https://github.com/Kaedh/3-column-cards"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/3-column-cards-preview.PNG" /></a>
-</p>
+<a target="_blank" href="https://nostalgic-beaver-9b1b4a.netlify.app/"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/order-summary-preview.png" /></a>
+
+
 
 
 
