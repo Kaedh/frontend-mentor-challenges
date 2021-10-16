@@ -1,17 +1,10 @@
-/*
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-*/
-
 :root {
     --strong-cyan: hsl(172, 67%, 45%);
     --very-dark-cyan: hsl(183, 100%, 15%);
-    --dark-grayish-cyan: hsl(186, 14%, 43%);
     --dark-grayish-cyan: hsl(184, 14%, 56%);
+    --more-dark-grayish-cyan: hsl(186, 14%, 43%);
     --light-grayish-cyan: hsl(185, 41%, 84%);
-    --light-grayish-cyan: hsl(189, 41%, 97%);
+    --more-light-grayish-cyan: hsl(180, 33%, 89%);
     --white: hsl(0, 0%, 100%);
     
 }
@@ -23,13 +16,137 @@ The designs were created to the following widths:
 
 }
 
-body, input, button {
+input, button {
+    font-family: 'Space Mono', monospace;
     font-size: 24px;
 
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
     font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    background-color: var(--light-grayish-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
+.app-container {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    margin-top: 3%;
+    border-radius: 2rem;
+    background-color: var(--white);
+    padding: 3rem;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.top {
+    width: 100%;
+    height: 20%;
+}
+
+.middle {
+    width: 100%;
+    height: 40%;
+}
+
+.bottom {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+}
+
+.left-container label {
+    color: var(--more-dark-grayish-cyan);
+    font-weight: 700;
+}
+
+.input-wrapper {
+    margin-top: 1%;
+    width: 100%;
+    height: 60%;
+    border-radius: .3rem;
+    background-color: var(--more-light-grayish-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.input-wrapper input {
+    width: 25%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--very-dark-cyan);
+    font-weight: 700;
+    appearance: textfield;
+    text-align: right; 
+}
+
+.tip-form {
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    height: 70%;
+
+}
+
+.tip-amount-btn {
+    border: none;
+    background-color: var(--very-dark-cyan);
+    color: var(--more-light-grayish-cyan);
+    font-weight: 700;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.tip-amount-btn:focus {
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-container {
+    width: 50%;
+    border-radius: 1rem;
+    background-color: var(--very-dark-cyan);
 }
 

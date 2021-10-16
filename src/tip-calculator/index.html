@@ -16,30 +16,36 @@
 
   <div class="app-container">
     <div class="left-container">
-      <label for="bill">Bill</label>
 
-      <div class="input-wrapper">
-        <img src="/assets/icon-person.svg" alt="" class="person-icon">
-        <input name="bill" type="number">
+      <div class="top">
+        <label>Bill</label>
+        <div class="input-wrapper">
+          <img src="/assets/icon-dollar.svg" alt="" class="person-icon">
+          <input type="number">
+        </div>
+      </div>
+
+      <div class="middle">
+        <label>Select Tip %</label>
+        <form class="tip-form"> 
+          <input class="tip-amount-btn" type="button" value="5%"><!--
+          --><input class="tip-amount-btn" type="button" value="10%"><!--
+          --><input class="tip-amount-btn" type="button" value="15%"><!--
+          --><input class="tip-amount-btn" type="button" value="25%"><!--
+          --><input class="tip-amount-btn" type="button" value="50%"><!--
+          --><input class="tip-amount-btn" type="button" value="Custom">
+        </form>
       </div>
       
 
-      <label form="tip">Select Tip %</label>
-      <form name="tip"> 
-        <input class="tip-amount-btn" type="button" value="5%">
-        <input class="tip-amount-btn" type="button" value="10%">
-        <input class="tip-amount-btn" type="button" value="15%">
-        <input class="tip-amount-btn" type="button" value="25%">
-        <input class="tip-amount-btn" type="button" value="50%">
-        <input class="tip-amount-btn" type="button" value="Custom">
-      </form>
-    
-      <label for="people">Number of People</label>
-      <div class="input-wrapper">
-        <img src="/assets/icon-person.svg" alt="" class="person-icon">
-        <input name="people" type="number">
+      <div class="bottom">
+        <label>Number of People</label>
+        <div class="input-wrapper">
+          <img src="/assets/icon-person.svg" alt="" class="person-icon">
+          <input type="number">
+        </div>
       </div>
-  
+
     </div>
 
     <div class="right-container">
