@@ -2,31 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <title>Tip calculator</title>
 </head>
 <body>
 
-  Bill
+  <img src="/assets/logo.svg" alt="logo" class="logo">
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+  <div class="app-container">
+    <div class="left-container">
+      <label for="bill">Bill</label>
 
-  Number of People
+      <div class="input-wrapper">
+        <img src="/assets/icon-person.svg" alt="" class="person-icon">
+        <input name="bill" type="number">
+      </div>
+      
 
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
+      <label form="tip">Select Tip %</label>
+      <form name="tip"> 
+        <input class="tip-amount-btn" type="button" value="5%">
+        <input class="tip-amount-btn" type="button" value="10%">
+        <input class="tip-amount-btn" type="button" value="15%">
+        <input class="tip-amount-btn" type="button" value="25%">
+        <input class="tip-amount-btn" type="button" value="50%">
+        <input class="tip-amount-btn" type="button" value="Custom">
+      </form>
+    
+      <label for="people">Number of People</label>
+      <div class="input-wrapper">
+        <img src="/assets/icon-person.svg" alt="" class="person-icon">
+        <input name="people" type="number">
+      </div>
   
+    </div>
+
+    <div class="right-container">
+
+      <div class="info-wrapper">
+        <div class="info-text">
+          <span>Tip Amount</span>
+          <span></span>/ person</span>
+        </div>
+      </div>
+
+      <div class="info-wrapper">
+        <div class="info-text">
+          <span>Total</span>
+          <span></span>/ person</span>
+        </div>
+      </div>
+
+      <button>Reset</button> 
+
+    </div>
+  
+  </div>
+
+  <script src="/main.js"></script>
 </body>
 </html>
