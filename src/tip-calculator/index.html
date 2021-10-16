@@ -33,13 +33,17 @@
           --><input class="tip-amount-btn" type="button" value="15%"><!--
           --><input class="tip-amount-btn" type="button" value="25%"><!--
           --><input class="tip-amount-btn" type="button" value="50%"><!--
-          --><input class="tip-amount-btn" type="button" value="Custom">
+          --><input class="tip-amount-btn custom-value-input" placeholder="Custom">
         </form>
       </div>
       
 
       <div class="bottom">
-        <label>Number of People</label>
+        <div class="header-people-input">
+          <label>Number of People</label>
+          <span class="invalid-message">Can't be Zero</span>
+        </div>
+        
         <div class="input-wrapper">
           <img src="/assets/icon-person.svg" alt="" class="person-icon">
           <input type="number">
@@ -53,18 +57,20 @@
       <div class="info-wrapper">
         <div class="info-text">
           <span>Tip Amount</span>
-          <span></span>/ person</span>
+          <span class="person-tag">/ person</span>
         </div>
+        <span class="total-value tip">$0.00</span>
       </div>
 
       <div class="info-wrapper">
         <div class="info-text">
           <span>Total</span>
-          <span></span>/ person</span>
+          <span class="person-tag">/ person</span>
         </div>
+        <span class="total-value bill">$0.00</span>
       </div>
 
-      <button>Reset</button> 
+      <button>RESET</button> 
 
     </div>
   
