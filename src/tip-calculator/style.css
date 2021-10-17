@@ -104,6 +104,10 @@ body {
     border: 2px solid var(--red);
 }
 
+.invalid-input:hover {
+    border: 2px solid var(--red);
+}
+
 .input-wrapper input {
     width: 25%;
     border: none;
@@ -135,7 +139,7 @@ body {
     cursor: pointer;
 }
 
-.tip-amount-btn:focus {
+.selected {
     background-color: var(--strong-cyan);
     color: var(--very-dark-cyan);
   
@@ -146,7 +150,7 @@ body {
     color: var(--very-dark-cyan);
 }
 
-.custom-value-input {
+#custom-value-input {
     width: 100%;
     outline: none;
     text-align: center;
@@ -154,12 +158,12 @@ body {
     
 }
 
-.custom-value-input[disabled] {
+#custom-value-input[disabled] {
     background-color: var(--more-light-grayish-cyan);
     color: var(--dark-grayish-cyan);
 }
 
-.custom-value-input:focus {
+#custom-value-input:focus {
     background-color: var(--white);
     border: 2px solid var(--strong-cyan);
     color: var(--very-dark-cyan);
