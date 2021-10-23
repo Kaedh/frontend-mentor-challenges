@@ -76,11 +76,18 @@ body {
 }
 
 .invalid-message {
-    margin-left: 30%;
     color: var(--red);
     font-weight: 700;
-    font-size: 1rem;
     visibility: hidden;
+    margin-top: auto;
+    font-size: 1vw;
+
+}
+
+.header-people-input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .input-wrapper {
@@ -120,7 +127,7 @@ body {
 }
 
 .tip-form {
-    margin-top: 5%;
+    margin-top: 3vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -174,15 +181,19 @@ body {
     border-radius: 1rem;
     background-color: var(--very-dark-cyan);
     padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .info-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 15%;
     color: var(--white);
-    margin-top: 5%;
+    margin-top: 3vh;
     padding: 0 5%;
 }
 
@@ -225,3 +236,100 @@ body {
 .right-container button[disabled] {
     opacity: .2;
 }
+
+
+
+@media (max-width: 1400px) {
+    .app-container {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .left-container {
+        width: 100%;
+        margin-left: 0;
+        height: 60%;
+        padding-bottom: 8vh;
+    }
+
+    .top {
+        height: auto;
+    }
+
+    .middle {
+        height: auto;
+    }
+
+    .bottom {
+        height: auto;
+    }
+
+    .invalid-message  {
+        font-size: 1.6vw;
+    }
+
+
+    .input-wrapper {
+        margin-top: 0;
+        height: 80%;
+    }
+
+    .tip-form {
+        margin-top: 0;
+    }
+
+    .right-container {
+        width: 100%;
+        height: 40%;
+    }
+
+    .right-container button {
+        margin-top: 5vh;
+        height: 20%;
+    }
+}
+
+@media (max-width: 375px) { 
+    body {
+        justify-content: flex-start;
+        padding: 5vh 0;
+    }
+    
+
+    .app-container {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .invalid-message  {
+        font-size: 3vw;
+    }
+    .info-wrapper {
+        margin-top: 5vh;
+    }
+
+    .info-text {
+        font-size: 80%;
+    }
+
+    .total-value {
+        font-size: 1.5rem;
+    }
+
+    .middle {
+        margin-top: 1vh;
+    }
+
+    .right-container button {
+        height: 20%;
+        margin-top: 8vh;
+        width: 90%;
+    }
+
+    .tip-amount-btn {
+        font-size: 1rem;
+    }
+}
+
