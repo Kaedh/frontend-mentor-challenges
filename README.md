@@ -11,7 +11,7 @@ Clique na imagem para acessar a demonstração.
 <a target="_blank" href="https://determined-euler-c97117.netlify.app"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/article-preview.png" /></a>
 <br>
 <a target="_blank" href="https://nostalgic-beaver-9b1b4a.netlify.app/"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/order-summary-preview.png" /></a>
-
+<a target="_blank" href="https://optimistic-galileo-731ef5.netlify.app/"><img width="400" height="225" src="https://github.com/Kaedh/frontend-mentor-challenges/blob/main/preview/tip-calculator-preview.png" /></a>
 
 
 

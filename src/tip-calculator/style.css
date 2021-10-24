@@ -289,23 +289,11 @@ body {
     }
 }
 
-@media (max-width: 375px) { 
-    body {
-        justify-content: flex-start;
-        padding: 5vh 0;
-    }
-    
-
-    .app-container {
-        width: 90%;
-        height: auto;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
-
+@media screen and  (max-width: 450px) {
     .invalid-message  {
         font-size: 3vw;
     }
+
     .info-wrapper {
         margin-top: 5vh;
     }
@@ -322,14 +310,32 @@ body {
         margin-top: 1vh;
     }
 
+    .tip-amount-btn {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) { 
+    body {
+        justify-content: flex-start;
+        padding: 5vh 0;
+    }
+    
+    .app-container {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
     .right-container button {
         height: 20%;
         margin-top: 8vh;
         width: 90%;
     }
 
-    .tip-amount-btn {
-        font-size: 1rem;
-    }
+
 }
 
