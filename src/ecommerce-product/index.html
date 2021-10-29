@@ -9,25 +9,58 @@
 </head>
 <body>
   <div class="container">
-    Collections
-    Men
-    Women
-    About
-    Contact
+    <header>
+      <img src="/assets/icon-menu.svg" alt="logo">
+      <nav class="header-menu">
+        <ul>
+          <li><a href="#">Collections</a> </li>
+          <li><a href="#">Men</a> </li>
+          <li><a href="#">Women</a> </li>
+          <li><a href="#">About</a> </li>
+          <li><a href="#">Contact</a> </li>
+        </ul>
+      </nav>
+      <button class="cart-button"><img src="/assets/icon-cart.svg" alt=""></button>
+      <button class="avatar-button"><img src="/assets/image-avatar.png" alt=""></button>
+    </header>
+  
+    <main>
+      <div class="gallery-wrapper">
+        <img class="selected-image" src="/assets/image-product-1.jpg" alt="">
 
-    Sneaker Company
+        <div class="thumb-wrapper">
+          <img src="/assets/image-product-1-thumbnail.jpg" alt="" class="thumb-img">
+          <img src="/assets/image-product-2-thumbnail.jpg" alt="" class="thumb-img">
+          <img src="/assets/image-product-3-thumbnail.jpg" alt="" class="thumb-img">
+          <img src="/assets/image-product-4-thumbnail.jpg" alt="" class="thumb-img">
+        </div>
+      </div>
+      <div class="product-details-wrapper">
+        <span class="company-name">Sneaker Company</span>
+        <h1 class="product-title" >Fall Limited Edition Sneakers</h1>
+        <p class="product-description" >
+          These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they’ll withstand everything the weather can offer.      
+        </p>
 
-    Fall Limited Edition Sneakers
+        <div class="product-price">
+          <span class="price">$125.00</span>
+          <span class="discount">50%</span>
+        </div>
+        <span class="older-price">$250.00</span>
 
-    These low-profile sneakers are your perfect casual wear companion. Featuring a 
-    durable rubber outer sole, they’ll withstand everything the weather can offer.
+        <footer>
+          <div class="amout-wrapper">
+            <button class="amount-btn"><img src="/assets/icon-minus.svg" alt=""></button>
+            <span class="amout">0</span>
+            <button class="amount-btn"><img src="/assets/icon-plus.svg" alt=""></button>
+          </div>
+          <button><img src="/assets/icon-cart.svg" alt=""> Add to cart</button>
+        </footer>
 
-    $125.00
-    50%
-    $250.00
-
-    0
-    Add to cart
+      </div>
+    </main>  
+    
   </div>
   
   <script src="/main.js"></script>
