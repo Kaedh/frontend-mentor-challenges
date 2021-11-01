@@ -125,14 +125,25 @@ main {
   margin-top: 1rem;
 }
 
-.thumb-img {
+.thumb-container {
   max-width: 20%;
   border-radius: 15px;
+}
+
+.thumb-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .thumb-img:hover {
   opacity: .4;
   cursor: pointer;
+ 
+}
+
+.thumb-container:hover {
+  border: 3px solid var(--orange);
 }
 
 .product-details-wrapper {
