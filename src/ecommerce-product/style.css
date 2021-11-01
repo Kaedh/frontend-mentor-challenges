@@ -8,6 +8,8 @@
 --white: hsl(0, 0%, 100%);
 --black: hsl(0, 0%, 0%);                                            /*(with 75% opacity for lightbox background) */
 
+  font-size: 16px;
+
 }
 
 * {
@@ -240,3 +242,24 @@ footer {
 .add-to-cart-btn img {
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 1235px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+/*
+@media screen and (max-width: 1115px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+*/
