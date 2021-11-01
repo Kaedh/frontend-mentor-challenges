@@ -80,9 +80,20 @@ header {
   justify-content: space-between;
 }
 
+.header-menu ul li {
+  height: 100%;
+  padding-top: 2.5rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+}
+
+.header-menu ul li:hover {
+  border-bottom: 5px solid var(--orange);
+}
+
 .cart-button {
   margin-left: auto;
   margin-right: 3rem;
+  cursor: pointer;
 }
 
 .avatar-button {
@@ -93,6 +104,12 @@ header {
 .avatar-button img {
   width: 100%;
   height: auto;
+  cursor: pointer;
+}
+
+.avatar-button img:hover {
+  outline: 3px solid var(--orange);
+  border-radius: 50%;
 }
 
 
@@ -266,11 +283,19 @@ footer {
   :root {
     font-size: 14px;
   }
+
+  .header-menu ul li { 
+    padding-top: 2.8rem;
+  }
 }
 
 @media screen and (max-width: 1115px) {
   :root {
     font-size: 12px;
+  }
+
+  .header-menu ul li { 
+    padding-top: 3.6rem;
   }
 }
 
