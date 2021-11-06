@@ -468,6 +468,7 @@ footer {
 
   .container {
     z-index: 5;
+    max-height: 100vh;
   }
 
   header {

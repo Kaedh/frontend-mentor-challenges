@@ -19,3 +19,15 @@ thumbImages.forEach( thumb => {
 closeCarrousel.addEventListener('click', () => {
   carrousel.classList = 'gallery-carrousel-container'
 })
+
+// Botoes de adicionar ou remover quantidade
+// Adicionar produto ao carrinho
+// carrinho vazio
+// menu lateral
+// ao clicar na thumb mudar a imagem
+// ao clicar na imagem grande aparecer o carrosel
+// ao clicar nas setas do carrosel retroceder ou avançar imagem
+// ao clicar na lixeira excluir do carrinho
+// quando clicar no menu hamburguer abrir o menu lateral
+// quando clicar no x do menu lateral fechar menu hamburguer
+// fechar carrosel apenas ao clicar no x
