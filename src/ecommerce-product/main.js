@@ -4,6 +4,20 @@ const carrousel = document.querySelector(".gallery-carrousel-container");
 const closeCarrousel = document.querySelector('.close-btn');
 const thumbImages = document.querySelectorAll(".thumb-container");
 
+const openMenuIcon = document.querySelector(".menu-icon");
+const closeSideMenuIcon = document.querySelector(".hidden-menu-close-btn");
+const navList = document.querySelector(".nav-list");
+const sideMenu = document.querySelector(".header-menu");
+
+openMenuIcon.addEventListener('click', () => {
+  sideMenu.classList.toggle('visible')
+  navList.classList.toggle('show-side-menu')
+})
+
+closeSideMenuIcon.addEventListener('click', () => {
+  sideMenu.classList.toggle('visible')
+  navList.classList.toggle('show-side-menu')
+})
 
 
 cartButton.addEventListener('click', () => {
