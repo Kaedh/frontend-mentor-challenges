@@ -246,7 +246,7 @@ footer {
   justify-content: space-between;
 }
 
-.amout-wrapper {
+.amount-wrapper {
   width: 40%;
   height: 100%;
   background: var(--light-grayish-blue);
@@ -265,7 +265,7 @@ footer {
   opacity: .4;
 }
 
-.amout {
+.amount {
   font-weight: 700;
   color: var(--black);
   font-size: 1rem;
@@ -515,7 +515,6 @@ footer {
 
   .nav-list {
     width: 0;
-    padding-top: 2rem;
     height: 100vh;
     background: var(--white);
     flex-direction: column;
